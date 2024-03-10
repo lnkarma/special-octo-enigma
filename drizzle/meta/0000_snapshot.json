@@ -1,5 +1,5 @@
 {
-  "id": "72f817bd-02de-4503-9da7-f7fd2b937c58",
+  "id": "286d3e4f-2904-4c8f-aacc-7852d562335c",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
@@ -30,7 +30,7 @@
           "name": "image",
           "type": "text",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "createdAt": {
           "name": "createdAt",

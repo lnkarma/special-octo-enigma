@@ -1,6 +1,6 @@
 {
-  "id": "13ab788c-11f8-406d-a1fa-b10d81addf65",
-  "prevId": "dc084041-1ce5-44cc-b047-f8dd0cd5f2b3",
+  "id": "9eac01d2-448c-44f2-81a9-7a65e19af6ed",
+  "prevId": "b7169f30-e6b4-4d6a-9052-dcc14d574144",
   "version": "5",
   "dialect": "pg",
   "tables": {
@@ -30,7 +30,7 @@
           "name": "image",
           "type": "text",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "createdAt": {
           "name": "createdAt",
