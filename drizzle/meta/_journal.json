@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1710045375085,
+      "tag": "0000_faithful_machine_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1710047394817,
+      "tag": "0001_unique_luke_cage",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1710047665328,
+      "tag": "0002_quiet_mattie_franklin",
+      "breakpoints": true
+    }
+  ]
+}

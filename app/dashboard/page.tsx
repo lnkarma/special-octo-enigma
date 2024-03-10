@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
+import { getExampleTable } from "@/db";
 // import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
 // import { MainNav } from "@/app/examples/dashboard/components/main-nav"
 // import { Overview } from "@/app/examples/dashboard/components/overview"
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
 };
 
 export default function DashboardPage() {
+  getExampleTable().then(console.log);
   return (
     <>
       <div className="md:hidden">
